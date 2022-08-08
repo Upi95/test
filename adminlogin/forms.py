@@ -3,7 +3,9 @@ CHOICES = (
 ('1','Mathematics'),
 ('2','Physics'),
 ('3','Chemistry'),
-('4','Computer Sc.')
+('4','Computer Sc.'),
+('5','Python'),
+('6','Java')
 )
 class BookAdd(forms.Form):
 	book_name = forms.CharField(label='Book Name',max_length=100,widget=forms.TextInput(attrs={'class':'form-control','placeholder':'Enter the name of the book'}))
